@@ -1,0 +1,5 @@
+n = int(input())
+data = list(map(int,input().split()))
+data1 = list(dict.fromkeys(data))
+res = (sum(data1)*n - sum(data))//(n-1) 
+print(res)
